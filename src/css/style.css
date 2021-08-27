@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg, indigo, violet);
+}
+.container {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Pattaya', sans-serif;
+    margin-top: 50px;
+    color: rgb(22, 17, 18);
+    letter-spacing: 4px;
+}
+ #form {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+#inputField {
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(217, 206, 224);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: rgb(162, 112, 197);
+    text-align: center;
+    transition: all 0.4s ease;
+
+}
+#form button {
+    background-color: rgb(217, 206, 224);
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#form img {
+    height: 20px;
+    width: 40px;
+    object-fit: contain;
+}
+
+#inputField:hover {
+    box-shadow: 2px 2px 15px #1f1e1e;
+}
+#inputField:focus {
+    outline: 0;
+}
+ #resultWord {
+    color: rgb(204, 193, 214);
+    text-align: start;
+    margin: 50px auto;
+    width: 300px;
+}
+p {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color:rgb(150, 144, 165);
+    line-height: 40px;
+}
+li {
+    padding: 3px ;
+    font-family: 'Montserrat', sans-serif;
+}
+#resultWord :last-child {
+    font-size: 1.2rem;
+    letter-spacing: 2;
+}
